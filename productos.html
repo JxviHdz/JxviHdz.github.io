@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos | Tienda de mini donas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tienda de Mini Donas</h1>
+    <nav>
+      <ul>
+        <li><a href="dulceblix.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h2>Productos</h2>
+    <div class="products-container">
+      <div class="product">
+        <img src="donas-chocolate.jpg" alt="Mini donas de chocolate">
+        <h3>Mini donas de chocolate</h3>
+        <p class="price">$3.99 por caja</p>
+        <button class="add-to-cart" data-product="chocolate">Agregar al carrito</button>
+      </div>
+      <div class="product">
+        <img src="donas-vainilla.jpg" alt="Mini donas de vainilla">
+        <h3>Mini donas de vainilla</h3>
+        <p class="price">$3.99 por caja</p>
+        <button class="add-to-cart" data-product="vainilla">Agregar al carrito</button>
+      </div>
+      <div class="product">
+        <img src="donas-canela.jpg" alt="Mini donas de canela">
+        <h3>Mini donas de canela</h3>
+        <p class="price">$3.99 por caja</p>
+        <button class="add-to-cart" data-product="canela">Agregar al carrito</button>
+      </div>
+      <div class="product">
+        <img src="donas-fresa.jpg" alt="Mini donas de fresa">
+        <h3>Mini donas de fresa</h3>
+        <p class="price">$3.99 por caja</p>
+        <button class="add-to-cart" data-product="fresa">Agregar al carrito</button>
+      </div>
+    </div>
+    
+    <aside class="cart-container">
+      <h3>Carrito de compras</h3>
+      <ul class="cart-items">
+        <!-- Los elementos del carrito se agregarán aquí dinámicamente con JavaScript -->
+      </ul>
+      <p class="cart-total">Total: $0.00</p>
+      <button class="checkout">Pagar</button>
+    </aside>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023. Tienda de Mini Donas.</p>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>
